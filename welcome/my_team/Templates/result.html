@@ -1,0 +1,15 @@
+<div style="text-align: center"
+    <h2>입력한 텍스트 전문</h2>
+    <div>
+        {{fulltext}}
+    </div>
+
+    <h3>콩쟁이콩처럼팀의 인원은 총 {{count}}명 입니다.</h3>
+
+
+        {% for word, totalCount in wordDict %}
+         <p>어서오세요. 콩쟁이콩처럼팀의{{ word }}님!</p>
+    {% endfor %}
+
+
+</div>
